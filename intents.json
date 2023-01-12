@@ -1,0 +1,31 @@
+{
+    "intents":[
+        {
+            "tag":"greetings",
+            "patterns":["hello","hii","hi","wake up","alpha"
+            ],
+            "responses":["hello sir","how are you sir","Always for you sir",
+            "Hello","At your service sir","Here's your assistant"
+            ]
+        },
+
+        {
+            "tag":"bye",
+            "patterns":["bye","good bye","see you later","sleep","exit"
+            ],
+            "responses":["bye","Bye sir","good bye","See you later sir","have fun sir",
+            "Hello","it will be nice to be at your service sir","Goodbye my friend"
+            ]
+        },
+
+        {
+            "tag":"Health",
+            "patterns":["how are you","are you fine?","are you alright"
+            ],
+            "responses":["Fine","Perfect","Cool","Just like you","I'm fine"
+            ]
+        }
+
+    ]
+
+}
